@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Full Professional Websites</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800;900&family=Sora:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700&family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#ffffff;
+  --surface:#ffffff;
+  --text:#0b0b0c;
+  --muted:#52525b;
+  --slate:#18181b;
+  --border:rgba(11,11,12,.10);
+  --radius:18px;
+  --shadow:0 4px 24px rgba(15,23,42,.06);
+}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1.65;overflow-x:hidden;}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:22px 48px;display:flex;align-items:center;justify-content:space-between;}
+nav.scrolled{background:rgba(255,255,255,.92);backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--border);padding:16px 48px;}
+.nav-logo{font-family:'Sora',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text);text-decoration:none;}
+.nav-logo span{color:var(--text);}
+.nav-back{font-family:'Sora',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:12px;font-weight:500;letter-spacing:.02em;color:rgba(11,11,12,.62);text-decoration:none;display:flex;align-items:center;gap:8px;}
+.nav-back:hover{color:var(--text);}
+.hero-bar{padding:160px 48px 72px;border-bottom:1px solid var(--border);background:radial-gradient(1200px 720px at 18% 40%, rgba(11,11,12,.06) 0%, rgba(255,255,255,0) 62%);}
+.eyebrow{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(11,11,12,.72);margin-bottom:22px;display:flex;align-items:center;gap:16px;}
+.eyebrow::before{content:'';width:32px;height:1px;background:rgba(11,11,12,.35);}
+.page-title{font-family:'Unbounded',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:clamp(40px,6.4vw,72px);font-weight:800;line-height:1.02;letter-spacing:-.06em;margin-bottom:18px;}
+.page-title strong{font-weight:700;}
+.page-meta{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(11,11,12,.55);}
+.content-wrap{max-width:820px;margin:0 auto;padding:72px 48px 120px;}
+.section-block{margin-bottom:64px;opacity:1;transform:none;}
+.block-num{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(11,11,12,.6);margin-bottom:16px;}
+.block-title{font-family:'Sora',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:18px;font-weight:650;letter-spacing:-0.2px;margin-bottom:16px;border-bottom:1px solid var(--border);padding-bottom:14px;}
+.block-body{font-size:16px;color:rgba(11,11,12,.72);line-height:1.85;font-weight:400;}
+.block-body p{margin-bottom:16px;}
+.block-body ul{padding-left:24px;margin-bottom:16px;}
+.block-body li{margin-bottom:10px;}
+.block-body strong{color:var(--text);font-weight:700;}
+.block-body a{color:var(--text);text-decoration:none;border-bottom:1px solid rgba(11,11,12,.16);}
+.block-body a:hover{text-decoration:underline;}
+.highlight-box{border:1px solid var(--border);border-radius:calc(var(--radius) + 8px);padding:22px 24px;margin:22px 0;background:rgba(11,11,12,.03);}
+.highlight-box p{margin-bottom:0;}
+footer{border-top:1px solid var(--border);padding:40px 48px;display:flex;justify-content:space-between;align-items:center;max-width:1120px;margin:0 auto;background:var(--surface);}
+.footer-brand{font-family:'Sora',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;}
+.footer-brand span{color:var(--text);}
+.footer-links-sm{display:flex;gap:32px;}
+.footer-links-sm a{font-family:'Sora',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:12px;letter-spacing:.02em;color:rgba(11,11,12,.62);text-decoration:none;}
+.footer-links-sm a:hover{color:var(--text);}
+@media(max-width:768px){
+  nav{padding:20px 24px;}
+  nav.scrolled{padding:14px 24px;}
+  .hero-bar{padding:120px 24px 60px;}
+  .content-wrap{padding:60px 24px 80px;}
+  footer{padding:32px 24px;flex-direction:column;gap:24px;text-align:center;}
+  .footer-links-sm{flex-wrap:wrap;justify-content:center;}
+}
+</style>
+</head>
+<body>
+<nav id="mainnav">
+  <a href="index.html" class="nav-logo">Full<span>Pro</span>Websites</a>
+  <a href="index.html" class="nav-back">Back to Home</a>
+</nav>
+
+<div class="hero-bar">
+  <div class="eyebrow">Legal</div>
+  <h1 class="page-title">Terms of<br><strong>Service</strong></h1>
+  <p class="page-meta">Last updated: May 4, 2026</p>
+</div>
+
+<div class="content-wrap">
+
+  <div class="section-block">
+    <div class="block-num">00 — Agreement</div>
+    <div class="block-title">Acceptance of Terms</div>
+    <div class="block-body">
+      <p>By contacting Full Professional Websites, receiving a demo website, or making a payment, you ("Client") agree to be bound by these Terms of Service. If you do not agree, please do not proceed with our services.</p>
+      <div class="highlight-box">
+        <p><strong>Summary:</strong> Using our service means you agree to these terms. They are straightforward and designed to protect both you and us.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">01 — Services</div>
+    <div class="block-title">What We Provide</div>
+    <div class="block-body">
+      <p>Full Professional Websites provides custom website design and deployment services for local businesses. Our services include:</p>
+      <ul>
+        <li>Design and development of a personalized single-page or multi-page website</li>
+        <li>Delivery of a free demo website link via SMS prior to any payment</li>
+        <li>Website hosting and deployment upon payment</li>
+        <li>An optional $20/month maintenance plan for ongoing updates and support</li>
+      </ul>
+      <p>We reserve the right to modify or discontinue services at any time, with reasonable notice to active clients.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">02 — Payment</div>
+    <div class="block-title">Payment Terms</div>
+    <div class="block-body">
+      <p>Our standard website service is priced at a <strong>one-time fee of $1,000 USD</strong>. Payment is processed securely through Stripe.</p>
+      <ul>
+        <li>Payment is due only after you have reviewed and approved your free demo</li>
+        <li>Your website will go live within hours of confirmed payment</li>
+        <li>The $1,000 fee covers design, development, and initial hosting deployment</li>
+        <li>The optional maintenance plan ($20/month) is billed monthly and may be cancelled at any time</li>
+      </ul>
+      <p><strong>Refund Policy:</strong> Because we invest significant time building each website before payment is requested, all sales are final once payment is submitted and the site has been deployed. If you have concerns prior to payment, please discuss them with us before completing your purchase.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">03 — Client Responsibilities</div>
+    <div class="block-title">Your Responsibilities</div>
+    <div class="block-body">
+      <p>By engaging with our services, you agree to:</p>
+      <ul>
+        <li>Provide accurate contact information including your name, phone number, and email</li>
+        <li>Notify us of any changes or corrections needed to your website promptly</li>
+        <li>Ensure that any content you provide (logos, photos, text) does not infringe on third-party intellectual property rights</li>
+        <li>Not use your website for any illegal, fraudulent, or harmful purposes</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">04 — Intellectual Property</div>
+    <div class="block-title">Ownership</div>
+    <div class="block-body">
+      <p>Upon receipt of full payment, you own the website content (text, layout, design) we create for your business. Full Professional Websites retains the right to display completed projects in a portfolio unless you request otherwise in writing.</p>
+      <p>We retain ownership of any proprietary tools, templates, or code frameworks used in building your site. These are licensed to you for use on your website, not transferred outright.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">05 — SMS Communications</div>
+    <div class="block-title">Text Message Terms</div>
+    <div class="block-body">
+      <p>By providing your phone number and verbally consenting to receive communications, you agree to receive automated and non-automated SMS messages from Full Professional Websites, including demo links, payment links, and follow-up messages.</p>
+      <ul>
+        <li>Reply <strong>STOP</strong> at any time to opt out of further messages</li>
+        <li>Reply <strong>HELP</strong> or call <a href="tel:4013000957">(401) 300-0957</a> for support</li>
+        <li>Message and data rates may apply</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">06 — Limitation of Liability</div>
+    <div class="block-title">Liability Limits</div>
+    <div class="block-body">
+      <p>Full Professional Websites shall not be liable for any indirect, incidental, or consequential damages arising from the use or inability to use our services. Our total liability to you for any claim shall not exceed the amount paid for the specific service in question.</p>
+      <p>We do not guarantee specific business results (e.g., increased sales, calls, or rankings) from having a website.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">07 — Governing Law</div>
+    <div class="block-title">Jurisdiction</div>
+    <div class="block-body">
+      <p>These Terms are governed by the laws of the United States. Any disputes arising from these Terms or our services shall be resolved through good-faith negotiation. If resolution cannot be reached, disputes shall be submitted to binding arbitration.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">08 — Changes to Terms</div>
+    <div class="block-title">Updates</div>
+    <div class="block-body">
+      <p>We may update these Terms from time to time. The most current version will always be available on this page. Continued use of our services after changes constitutes acceptance of the updated Terms.</p>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="block-num">09 — Contact</div>
+    <div class="block-title">Get in Touch</div>
+    <div class="block-body">
+      <p>For any questions regarding these Terms of Service:</p>
+      <ul>
+        <li><strong>Phone:</strong> <a href="tel:4013000957">(401) 300-0957</a></li>
+        <li><strong>Email:</strong> <a href="mailto:fullprofessionalwebsites@outlook.com">fullprofessionalwebsites@outlook.com</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-brand">Full<span>Pro</span>Websites</div>
+  <div class="footer-links-sm">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="tel:4013000957">(401) 300-0957</a>
+  </div>
+</footer>
+
+<script></script>
+</body>
+</html>
